@@ -1,0 +1,19 @@
+"""
+此处记录将pycharm与github进行联合起来，实现将代码上传到云端并进行修改
+
+图文解释
+https://blog.csdn.net/Q0717168/article/details/108719275
+跟着这个链接完成下来的
+
+期间碰到一个问题：因为网络连接，只是实现了仓库创建，但是数据无法上传。
+Can't finish GitHub sharing process Successfully created project 'mzl" on GitHub,but initial push failed: unable to access 'https://github.com/xiuqizhiping1034/mzl.git/: OpensSL SSL_read: Connection was reset,errno 10054
+搜寻尝试无果，有搜寻了下边的问题
+OpensSL SSL_read: Connection was reset,errno 10054
+
+最后尝试下边的链接 清除网络不稳定以及重新初始化了一下，成功解决error
+https://blog.csdn.net/sinat_32017511/article/details/115762643
+
+
+下边的这个链接 在解决问题的时候，虽然没太用上，但是教给我怎样删除无用的remote并且重新建立远程github链接
+https://blog.csdn.net/lai1170137052/article/details/79377037
+"""
